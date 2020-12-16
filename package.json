@@ -1,0 +1,39 @@
+{
+  "name": "eventbriteclone-backend",
+  "version": "1.0.0",
+  "description": "event brite clone",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config  ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritapetillo/eventBriteClone-backend.git"
+  },
+  "author": "RitaP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritapetillo/eventBriteClone-backend/issues"
+  },
+  "homepage": "https://github.com/ritapetillo/eventBriteClone-backend#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "fs-extra": "^9.0.1",
+    "html-pdf": "^2.2.0",
+    "json2csv": "^5.0.5",
+    "mongoose": "^5.11.8",
+    "pdfmake": "^0.1.68",
+    "sendgrid": "^5.2.3",
+    "stream": "0.0.2",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
